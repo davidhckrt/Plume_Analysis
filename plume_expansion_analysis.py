@@ -7,7 +7,7 @@ import math
 from matplotlib.ticker import MaxNLocator
 
 # Get user input for CSV file, distance, and frame height
-csv_file = input("Enter the path to the CSV file (or press Enter for default): ").strip() or '/Users/davduj/plume_analysis/scripts/annotation/polygon_annotations_increased_contrast_frames.csv'
+csv_file = input("Enter the path to the CSV file (or press Enter for default): ").strip() or '/Users/*****/plume_analysis/scripts/annotation/polygon_annotations_increased_contrast_frames.csv'
 distance = float(input("Enter the distance to the plume (in meters): "))
 frame_height = int(input("Enter the vertical resolution of the frames (e.g., 720): "))
 
