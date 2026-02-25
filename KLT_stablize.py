@@ -112,7 +112,7 @@ def main():
         # Create a version with tracking points
         frame_with_points = stabilized_frame.copy()
         for pt in tracker.tracked_features:
-            cv2.circle(frame_with_points, tuple(map(int, pt)), 2, (0, 0, 255), -1)  # Smaller red points
+            cv2.circle(frame_with_points, tuple(map(int, pt)), 2, (0, 0, 255), -1)  #red points
 
         # Show the stabilized frame with tracking points
         cv2.imshow("Stabilized (With Points)", frame_with_points)
